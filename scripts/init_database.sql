@@ -11,6 +11,15 @@ Purpose:
 USE master;
 GO
 
+-- Drop the database if it already exists, so the script can be re-run   --
+
+IF EXISTS (SELECT 1 FROM sys.databases WHERE name = 'DataWarehouse')
+BEGIN
+    ALTER DATABASE DataWarehouse SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+    DROP DATABASE DataWarehouse;
+END;
+GO
+
 
 CREATE DATABASE DataWarehouse;
 GO
@@ -26,3 +35,4 @@ GO
 
 CREATE SCHEMA bronze;
 GO
+
