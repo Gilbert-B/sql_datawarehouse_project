@@ -1,0 +1,22 @@
+ID,CAT,SUBCAT,MAINTENANCE
+BI_MB,Bikes,Mountain Bikes,Yes
+BI_RB,Bikes,Road Bikes,Yes
+BI_TB,Bikes,Touring Bikes,Yes
+CO_FR,Components,Frames,Yes
+CO_WH,Components,Wheels,No
+CO_BR,Components,Brakes,Yes
+CO_CH,Components,Chains,Yes
+CO_HB,Components,Handlebars,Yes
+CO_PD,Components,Pedals,Yes
+CL_JE,Clothing,Jerseys,Yes
+CL_GL,Clothing,Gloves,Yes
+CL_SH,Clothing,Shorts,No
+CL_SO,Clothing,Socks,Yes
+CL_CA,Clothing,Caps,Yes
+AC_HL,Accessories,Helmets,No
+AC_BO,Accessories,Bottles and Cages,Yes
+AC_LI,Accessories,Lights,Yes
+AC_LO,Accessories,Locks,No
+AC_PU,Accessories,Pumps,Yes
+AC_TT,Accessories,Tires and Tubes,Yes
+AC_CL,Accessories,Cleaners,No
