@@ -5,6 +5,8 @@ Create Database and Schemas
 Purpose:
     Creates the DataWarehouse database and the bronze, silver and gold schemas 
 	that hold each layer of the warehouse.
+Warning :
+	This deletes the database together with its schemas and recreates it.
 */
 
 
